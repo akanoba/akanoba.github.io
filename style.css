@@ -1,0 +1,187 @@
+﻿h1, h2{
+    margin-left:5px;
+}
+
+
+html, body, #container {
+    width:100%;
+    height:100%;
+    min-width:400px;
+    box-sizing:border-box;
+}
+
+#container{
+    background-color:gray;
+}
+
+/*ヘッダーのcss*/
+header{
+    position:fixed;
+    z-index:100;
+    background-color:white;
+    opacity:0.9;
+    
+    width:100%;
+    height:80px;
+
+    overflow:hidden;
+}
+
+header h1{
+    float:left;
+    font-size:40px;
+    color:black;
+
+
+}
+
+header button{
+    float:right;
+    height:40px;
+    width:40px;
+    border-radius:5px;
+    margin:20px;
+}
+
+header nav{
+    display:none;
+}
+
+/*ホームのCSS*/
+section#home{
+    box-sizing:border-box;
+    padding-top:80px;
+    height:100%;
+    width:100%;
+    background:url('img/img.jpg') no-repeat center;
+    background-size:cover;
+}
+
+/*ホームの立ち：絵のキャラの制御*/
+#tatie{
+    display:block;
+    height:calc(100% - 100px);
+    bottom:0;
+    right:0;
+    position:absolute;
+    z-index:80;
+    
+}
+
+/*ホームのセリフの中身のcss*/
+#serifu{
+    position:absolute;
+    right:0;
+    left:0;
+    bottom:20px;
+    width:95%;
+    height:40%;
+    margin:0 auto;
+    background-color:white;
+    opacity:0.8;
+    z-index:90;
+}
+
+#serifu h3{
+    width:100%;
+    margin:0;
+    padding:10px;
+    background-color:pink;
+}
+
+#serifu #serifu-content{
+    padding:10px;
+}
+
+#serifu #serifu-content #sns-links{
+    position: absolute;
+    bottom:0;
+    right:10px;
+    float:right;
+}
+
+
+#story #storyContent{
+    text-align:center;
+    background-color:rosybrown;
+    box-sizing:border-box;
+    margin:10px;
+    padding:15px 20px;
+    border-radius:3px;
+}
+
+#story #bb-bookblock{
+    width:100%;
+    box-shadow:0px 0px 7px 7px rgba(0,0,0,0.4) ;
+    z-index:40;
+}
+
+#story #storyContent .bb-item {
+    background-image:url('img/book.jpg');
+    z-index:50;
+}
+
+#story #stpry-nav-button{
+    
+}
+
+#story .nav-button-item:hover{
+    cursor:pointer;
+}
+
+/*キャラクター*/
+
+#charactor ul{
+    list-style:none;
+    padding:0;
+    box-sizing:border-box;
+    margin:20px;
+}
+
+#charactor ul li {
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+#charactor ul li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+#charactor ul li .bg-char-img {
+    box-sizing:border-box;
+    border:4px solid pink;
+    width:80px;
+    height:80px;
+}
+
+#charactor ul li .bg-char-img img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+#charactor ul li .char-name {
+    border-bottom:4px solid pink;
+    box-sizing:border-box;
+    height:80px;
+    width:calc(100% - 80px);
+    font-size:45px;
+}
+
+#charactor ul li:nth-child(2n+1) .bg-char-img  {
+    float:left;
+}
+
+#charactor ul li:nth-child(2n+1)  .char-name {
+    float:right;
+    text-align:left;
+}
+
+#charactor ul li:nth-child(2n) .bg-char-img  {
+    float:right;
+}
+
+#charactor ul li:nth-child(2n) .char-name {
+    float:left;
+    text-align:right;
+}
