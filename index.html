@@ -26,17 +26,16 @@
 	<link rel="stylesheet" href="style.css" />
 	<script src="function.js"></script>
 
-	<meta name="description" content="暁に手を伸ばして">
+	<meta name="description" content="暁に手をのばして">
 	<meta name="author" content="あかのば">
-	<meta name="keywords" content="暁に手を伸ばして,あかのば">
-    <title>暁に手を伸ばしてル | 公式Webサイト</title>
+	<meta name="keywords" content="暁に手をのばして,あかのば">
+    <title>暁に手をのばしてル | 公式Webサイト</title>
 </head>
 <body>
 <div id="container">
-<header>
+<header id="header">
     <div class="container">
-	<h1><!--<img src="logo.png" />-->暁に手を伸ばして</h1>
-
+	<h1><img src="img/logo0.png" alt="暁に手をのばして"></h1>
     <button id="navButton" type="button" class="btn btn-default" aria-hidden="true"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
     <nav>
         <ul>
@@ -50,6 +49,13 @@
     </nav>
     </div><!--container-->
 </header>
+<div id="head-contents">
+    <div class="container">
+
+        <h1><img src="img/logo.png" alt="暁に手をのばして"></h1>
+</div>
+
+</div><!--head-contents-->
 	<section id="home">
         <div id="home-container" class="container">
         <img id="tatie" src="img/meido.png"/>
@@ -81,6 +87,7 @@
                     </p>
                 </div>
                 
+                <div class="bb-item">aaa</div>
             </div>
         <span id="story-nav-button"><span id="bb-nav-prev" class="nav-button-item">← </span><span id="bb-nav-next" class="nav-button-item"> →</span></span>
         </div><!--storyContent-->
@@ -108,6 +115,8 @@
     <script src="lib/js/bootstrap.min.js"></script>
     <script src="lib/js/lightbox.js"></script>
     <script>
+        var headerNow = 0;
+
         $(document).ready(function () {
 
             bootstrap();
@@ -124,6 +133,31 @@
             'showImageNumberLabel': false,
             'wrapAround': true
         })
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 200 && headerNow == 0){
+                headerNow =1;
+                
+                $('header').css({
+                    display:'inline'
+                }).animate({
+                    opacity:0.9
+                },{duration:100});
+               
+            }else if($(this).scrollTop()<=200 && headerNow == 1){
+                headerNow = 0;
+
+               $('header').animate({
+                    opacity:0
+                },{duration:100},function(){
+                    $('header').css({
+                    'display':'none'
+                });
+                });
+                
+            }
+        });
+
     </script>
 </body>
 </html>

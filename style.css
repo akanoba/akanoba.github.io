@@ -23,26 +23,38 @@ header{
     position:fixed;
     z-index:100;
     background-color:white;
-    opacity:0.9;
-    
+    opacity:0;
     width:100%;
     height:80px;
-
     overflow:hidden;
+    display: none;
 }
-@media (min-width:430px) {
-    header h1 {
+@media (min-width:480px) {
+    header h1{
         float: left;
-        font-size: 40px;
         color: black;
+        margin:0;
     }
+
+    header h1 img{
+        height:80px;
+    }
+
 }
-@media (max-width:430px){
+@media (max-width:480px){
     header h1{
         float:left;
         font-size:30px;
         color:black;
+        margin:0;
     }
+
+    header h1 img{
+        height:50px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
 }
 
 
@@ -51,13 +63,50 @@ header button{
     height:40px;
     width:40px;
     border-radius:5px;
-    margin:20px auto;
+    margin:20px;
     display:none;
 }
 
+/*header #navButton{
+    border-radius: 50%;
+    background-color:#ff4dff;
+    color:white;
+}
+*/
 header nav{
     display:none;
 }
+
+#head-contents{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+#head-contents{
+    overflow:hidden;
+}
+
+#head-contents h1{
+    float:left;
+    margin:0;
+}
+
+@media(min-width:768px){
+    #head-contents h1 img{
+        height:180px;
+        margin-top:15px;
+    }
+}
+
+@media(max-width:768px){
+    #head-contents h1 img{
+        max-width:calc(100% - 100px);
+        margin-top:5px;
+    }
+}
+
+
 
 /*ホームのCSS*/
 section#home{
