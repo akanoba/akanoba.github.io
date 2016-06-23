@@ -18,6 +18,16 @@ html, body, #container {
     background-color:gray;
 }
 
+#head-contents-container{
+    width:100%;
+    height:100%;
+    position:fixed;
+    opacity: 0;
+    display: none;
+    background-color: #010101;
+    z-index:990;
+}
+
 /*ヘッダーのcss*/
 header{
     position:fixed;
@@ -81,15 +91,41 @@ header nav{
     position:absolute;
     width:100%;
     height:100%;
+    overflow:hidden;
 }
 
-#head-contents{
-    overflow:hidden;
+#head-conents .container{
+    position: absolute;
 }
 
 #head-contents h1{
     float:left;
     margin:0;
+}
+
+#head-contents #head-nav-button{
+    background-color: pink;
+    color:white;
+    display:block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border: mediumvioletred solid 1px;
+
+    position: absolute;
+    right:20px;
+    top:30px;
+    z-index:1000;
+}
+
+#head-contents #head-nav-button:hover{
+    cursor: pointer;
+}
+
+@media(min-width:768px){
+    #head-contents #head-nav-button{
+        display: none;
+    }
 }
 
 @media(min-width:768px){
@@ -101,7 +137,7 @@ header nav{
 
 @media(max-width:768px){
     #head-contents h1 img{
-        max-width:calc(100% - 100px);
+        width:calc(100% - 100px);
         margin-top:5px;
     }
 }
@@ -114,8 +150,20 @@ section#home{
     padding-top:80px;
     height:100%;
     width:100%;
-    background:url('img/img.jpg') no-repeat center;
+    background-color:#0a0928;
     background-size:cover;
+}
+
+#home-char{
+    width:100%;
+    height:100%;
+    background:url("img/img.png") bottom no-repeat;
+    background-size:contain;
+    background-repeat:no-repeat;
+    position:absolute;
+    right:0;
+    left:0;
+    bottom:0;
 }
 
 #home #home-container{

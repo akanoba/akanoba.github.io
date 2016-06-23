@@ -32,11 +32,13 @@
     <title>暁に手をのばしてル | 公式Webサイト</title>
 </head>
 <body>
+<div id="head-contents-container">
+</div><!--head-contents-container-->
 <div id="container">
 <header id="header">
     <div class="container">
 	<h1><img src="img/logo0.png" alt="暁に手をのばして"></h1>
-    <!--<button id="navButton" type="button" class="btn btn-default" aria-hidden="true"><span class="glyphicon glyphicon-menu-hamburger"></span></button>-->
+    <button id="navButton" type="button" class="btn btn-default" aria-hidden="true"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
     <nav>
         <ul>
             <li><a href="">ホーム</a></li>
@@ -50,23 +52,17 @@
     </div><!--container-->
 </header>
 <div id="head-contents">
-    <div class="container">
 
-        <h1><img src="img/logo.png" alt="暁に手をのばして"></h1>
-</div>
+    <div class="container">
+        <!--<h1><img src="img/logo.png" alt="暁に手をのばして"></h1>-->
+        <button id="head-nav-button" type="button" aria-hidden="true"><span id="nav-mark" class="glyphicon glyphicon-menu-hamburger"></span></button>
+    </div>
 
 </div><!--head-contents-->
 	<section id="home">
         <div id="home-container" class="container">
-        <img id="tatie" src="img/meido.png"/>
-        <div id="serifu" class="container">
-            <h3>コルデリア</h3>
-            <div id="serifu-content" class="container">
-            <p>かずゆきおにいちゃんのばか・・・</p>
-            <p id="sns-links"><!--<a href="">blog</a>--> <a href="https://twitter.com/akanoba108" target="_blank">Twitter</a></p>
-            </div><!--serifu-conent-->
+            <div id="home-char"></div>
 
-        </div><!--serifu-->
         </div><!--container-->
 
 	</section>
@@ -119,6 +115,14 @@
 
         $(document).ready(function () {
 
+            $('#head-nav-button').click(function(e){
+                loadMenu();
+            });
+
+            $('#head-contents-container').click(function(e){
+                loadMenu();
+            });
+
             bootstrap();
             $('#bb-bookblock').bookblock({
                 speed:800,
@@ -150,9 +154,7 @@
                $('header').animate({
                     opacity:0
                 },{duration:100},function(){
-                    $('header').css({
-                    'display':'none'
-                });
+                    $('header').css('display','none');
                 });
                 
             }
