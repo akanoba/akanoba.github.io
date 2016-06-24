@@ -34,6 +34,15 @@
 <body>
 <div id="head-contents-container">
 </div><!--head-contents-container-->
+<div id="home-overlay-menu">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
 <div id="container">
 <header id="header">
     <div class="container">
@@ -52,9 +61,10 @@
     </div><!--container-->
 </header>
 <div id="head-contents">
+            <img src="img/load.png" id="load_button">
 
     <div class="container">
-        <!--<h1><img src="img/logo.png" alt="暁に手をのばして"></h1>-->
+
         <button id="head-nav-button" type="button" aria-hidden="true"><span id="nav-mark" class="glyphicon glyphicon-menu-hamburger"></span></button>
     </div>
 
@@ -112,6 +122,7 @@
     <script src="lib/js/lightbox.js"></script>
     <script>
         var headerNow = 0;
+        var scrolled = 0;
 
         $(document).ready(function () {
 
@@ -123,7 +134,14 @@
                 loadMenu();
             });
 
+            $(window).scroll(function(){
+                scrolled = 1;
+            });
+
             bootstrap();
+
+            $('#load_button');
+
             $('#bb-bookblock').bookblock({
                 speed:800,
                 shadowSides: 0.8,
@@ -146,15 +164,15 @@
                     display:'inline'
                 }).animate({
                     opacity:0.9
-                },{duration:100});
+                },100);
                
             }else if($(this).scrollTop()<=200 && headerNow == 1){
                 headerNow = 0;
 
                $('header').animate({
                     opacity:0
-                },{duration:100},function(){
-                    $('header').css('display','none');
+                },100,function(){
+                    $('header').css({display:'none'});
                 });
                 
             }

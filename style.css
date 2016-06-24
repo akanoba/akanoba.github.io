@@ -28,10 +28,25 @@ html, body, #container {
     z-index:990;
 }
 
+#home-overlay-menu{
+    width:100%;
+    height:100%;
+    position:fixed;  
+    display:none;  
+}
+
+#home-overlay-menu ul{
+    list-style:none;
+}
+
+#home-overlay-menu ul li{
+    
+}
+
 /*ヘッダーのcss*/
 header{
     position:fixed;
-    z-index:100;
+    z-index:1500;
     background-color:white;
     opacity:0;
     width:100%;
@@ -118,7 +133,20 @@ header nav{
     z-index:1000;
 }
 
-#head-contents #head-nav-button:hover{
+#head-contents img#load_button{
+    position:absolute;
+    display: none;
+    opacity: 0;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    z-index:995;
+    width:300px;
+}
+
+#head-contents img#load_button:hover{
     cursor: pointer;
 }
 
