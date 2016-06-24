@@ -46,14 +46,13 @@ function loadMenu(){
     }
 
     if(loadMenuStatus == 0){
-        $('#head-contents-container').css('display','block').animate({
-            opacity:0.8
-        },100);
-
         $('#home-overlay-menu').css('display','block').animate({
             opacity:1
         },100);
-        
+        $('#head-contents-container').css('display','block').animate({
+            opacity:0.9
+        },100);
+
 
         loadMenuStatus =1;
     }else if(loadMenuStatus==1){

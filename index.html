@@ -32,32 +32,29 @@
     <title>暁に手をのばしてル | 公式Webサイト</title>
 </head>
 <body>
-<div id="head-contents-container">
-</div><!--head-contents-container-->
 <div id="home-overlay-menu">
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+
 </div>
+
+<div id="head-contents-container">
+    <ul>
+        <li class="nav"><a onclick="scroll('#home')">ホーム</a></li>
+        <li><a onclick="scroll('#story')">ストーリ</a></li>
+        <li><a onclick="scroll('#charactor')">キャラクター</a></li>
+        <li><a onclick="scroll('#movie')">ムービー</a></li>
+        <li><a onclick="scroll('#special')">スペシャル</a></li>
+        <li><a onclick="scroll('#staff')">スタッフ</a></li>
+        <li><a href="https://twitter.com/akanoba108" target="_blank">Twitter</a></li>
+        <li><a href="http://akanoba.tumblr.com" target="_blank">ブログ</a></li>
+    </ul>
+</div><!--head-contents-container-->
 
 <div id="container">
 <header id="header">
     <div class="container">
 	<h1><img src="img/logo0.png" alt="暁に手をのばして"></h1>
     <button id="navButton" type="button" class="btn btn-default" aria-hidden="true"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
-    <nav>
-        <ul>
-            <li><a href="">ホーム</a></li>
-            <li><a href="">ストーリー</a></li>
-            <li><a href="">キャラクター</a></li>
-            <li><a href="">ムービー</a></li>
-            <li><a href="">スペシャル</a></li>
-            <li><a href="">ブログ</a></li>
-        </ul>
-    </nav>
+
     </div><!--container-->
 </header>
 <div id="head-contents">
@@ -113,8 +110,40 @@
         </ul>
         </div><!--container -->
 	</section>
+	
+    <section id="movie">
+        <div class="container">
+            <h2>ムービー</h2>
+            <p>準備中です・・・</p>
+        </div>
+    </section>
+
+    <section id="special">
+        <div class="container">
+            <h2>スペシャル</h2>
+            <p>準備中です・・・</p>
+        </div>
+    </section>
+    
+    <section id="staff">
+        <div class="container">
+            <h2>スタッフ</h2>
+            <p>準備中です・・・</p>
+        </div>
+    </section>
+    
+    <section id="blog" style="display:none;">
+        <div class="container">
+            <h2>ブログ</h2>
+            <p>準備中です・・・</p>
+        </div>
+    </section>
+
 
 <footer>
+    <div class="container">
+    <p class="text-center">TEAM Akanoba(仮)</p> 
+    </div>
 
 </footer>
 </div><!--container-->
@@ -131,6 +160,10 @@
             });
 
             $('#head-contents-container').click(function(e){
+                loadMenu();
+            });
+            
+            $('#navButton').click(function(e){
                 loadMenu();
             });
 
