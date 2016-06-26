@@ -102,11 +102,13 @@
         <div class="container">
 		<h2>キャラクター</h2>
         <ul>
-            <li><a href="img/himezi.jpg" data-lightbox="roadtrip"> <div class="bg-char-img"><img src="img/face/himeji.png" /></div><div class="char-name">姫路 明</div></a></li>
-            <li><a href="img/meido.jpg" data-lightbox="roadtrip"> <div class="bg-char-img"><img src="img/face/meido.png" /></div><div class="char-name">コルデリア</div></a></li>
-            <li><a href="img/rosa.jpg" data-lightbox="roadtrip"> <div class="bg-char-img"><img src="img/face/rosa.png" /></div><div class="char-name">ローザ</div></a></li>
-            <li><a href="img/emiria.jpg" data-lightbox="roadtrip"> <div class="bg-char-img"><img src="img/face/emi.png" /></div><div class="char-name">エミリア</div></a></li>
-            <li><a href="img/makoto.jpg" data-lightbox="roadtrip"> <div class="bg-char-img"><img src="img/face/shin.png" /></div><div class="char-name">真</div></a></li>
+            <li><a href="img/himezi.jpg" data-lightbox="roadtrip"> <div class="bg-char-img" style="border-color:#994e34;"><img src="img/face/himeji.png" /></div><div class="char-name" style="border-color:#994e34;">姫路 明</div></a></li>
+            <li><a href="img/meido.jpg" data-lightbox="roadtrip"> <div class="bg-char-img" style="border-color:pink;"><img src="img/face/meido.png" /></div><div class="char-name" style="border-color:pink;">コルデリア</div></a></li>
+            <li><a href="img/marry.jpg" data-lightbox="roadtrip"> <div class="bg-char-img" style="border-color:#feeff1;"><img src="img/face/marry.png" /></div><div class="char-name" style="border-color:#feeff1;">マリアンネ</div></a></li>
+            <li><a href="img/rosa.jpg" data-lightbox="roadtrip"> <div class="bg-char-img" style="border-color:#1f224c;"><img src="img/face/rosa.png" /></div><div class="char-name" style="border-color:#1f224c;">ローザ</div></a></li>
+            <li><a href="img/ifa.jpg" data-lightbox="roadtrip"> <div class="bg-char-img" style="border-color:#8c4a5e;"><img src="img/face/ifa.png" /></div><div class="char-name" style="border-color:#8c4a5e;">イファ</div></a></li>
+            <li><a href="img/emiria.jpg" data-lightbox="roadtrip"> <div class="bg-char-img" style="border-color:#fff2ac;"><img src="img/face/emi.png" /></div><div class="char-name" style="border-color:#fff2ac;">エミリア</div></a></li>
+            <li><a href="img/makoto.jpg" data-lightbox="roadtrip"> <div class="bg-char-img" style="border-color:#994e34"><img src="img/face/shin.png" /></div><div class="char-name" style="border-color:#994e34;">速水 真</div></a></li>
         </ul>
         </div><!--container -->
 	</section>
@@ -194,17 +196,18 @@
                 headerNow =1;
                 
                 $('header').css({
-                    display:'inline'
+                    display:'block',
+                    opacity:0
                 }).animate({
                     opacity:0.9
-                },100);
+                },300);
                
             }else if($(this).scrollTop()<=200 && headerNow == 1){
                 headerNow = 0;
 
                $('header').animate({
                     opacity:0
-                },100,function(){
+                },300,function(){
                     $('header').css({display:'none'});
                 });
                 
