@@ -220,7 +220,7 @@ section#home{
     bottom:0;
 }
 
-@media(max-aspect-ratio:1198/1920){
+@media(max-aspect-ratio:1/1){
     #home-char{
         background:url("img/img-sm.jpg") bottom no-repeat;
         background-size:contain;
