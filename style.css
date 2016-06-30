@@ -241,11 +241,12 @@ section#home{
     box-sizing:border-box;
     background-position:center;
     padding:0;
+        min-height:650px;  
 }
 
 #story .container{
     background-color:rgba(255,255,255,0.8);
-    min-height:300px;    
+  
 }
 
 #story #storyContent{
@@ -287,11 +288,12 @@ section#home{
     background-position:center;
     box-sizing:border-box;
     padding:0;
+    min-height:800px;
 }
 
 #charactor .container{
     background-color:rgba(255,255,255,0.8);
-    min-height:800px;
+
 }
 
 #charactor ul{
