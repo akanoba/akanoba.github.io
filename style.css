@@ -10,12 +10,12 @@ html,body{
 
 *{
     color:#2d1a05;
-    font-family: YuMincho, 'Yu Mincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-family: YuMincho, 'Yu Mincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif, "モトヤLシーダ3等幅", MotoyaLCedar;
     font-size: 16px;  
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, "モトヤLシーダ3等幅", MotoyaLCedar;;
     font-weight: bold;
 
     color:#2d1a05;
