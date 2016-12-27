@@ -1,381 +1,403 @@
-﻿h1, h2{
-    margin-left:5px;
-}
-
-.container{
-    padding:0 !important;
-}
-
-
-html, body, #container {
+html,body{
     width:100%;
     height:100%;
+ }
 
-    box-sizing:border-box;
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, sans-serif;
+*{
+    color:#2d1a05;
+    font-family: YuMincho, 'Yu Mincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    
 }
 
-section{
-    height:calc(100% - 80px);
+h1,h2,h3,h4,h5,h6{
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-weight: bold;
 
+    color:#2d1a05;
 }
 
-#container{
-    background-color:gray;
-}
-
-#head-contents-container{
-    width:100%;
-    height:100%;
-    position:fixed;
-    opacity: 0;
+h1{
     display: none;
-    background-color: #010101;
-    z-index:990;
 }
 
-#head-contents-container ul{
-    list-style:none;
+h3{
+    font-size:25px;
+    margin-bottom:5px;
+}
+
+h4{
+    font-size:18px;
+
+}
+
+#wrapper{
     width:100%;
     height:100%;
-    margin:100px auto;
-    padding:0;
-
 }
 
-#head-contents-container ul li{
-    height:50px;    
-    width:50%;
-    background-color:white;
-    display:block;
-    margin:10px auto;
-    text-align:center;
-    border-radius: 5px;
-
-}
-
-#head-contents-container ul li:hover{
-    cursor: pointer;
-}
-
-#head-contents-container ul li a{
-    display:block;
-    font-size: 25px;
-    padding:5px;
-
-}
-
-/*ヘッダーのcss*/
 header{
     position:fixed;
-    z-index:1500;
-    background-color:white;
-    opacity:0;
-    width:100%;
-    height:100px;
-    overflow:hidden;
-    display: none;
-}
-@media (min-width:480px) {
-    header h1{
-        float: left;
-        color: black;
-        margin:0;
-    }
 
 }
 
-header h1 img{
-    height:100px;
-}
-
-@media (max-width:480px){
-    header{
-        height:80px;
-    }
-
-    header h1{
-        float:left;
-        font-size:30px;
-        color:black;
-        margin:0;
-    }
-
-    header h1 img{
-        height:80px;
-    }
-
-
-}
-
-
-header button{
-    float:right;
-    height:40px;
-    width:40px;
-    border-radius:5px;
-    margin:20px;
-    display:none;
-}
-
-/*header #navButton{
-    border-radius: 50%;
-    background-color:#ff4dff;
-    color:white;
-}
-*/
-
-
-#head-contents{
-    position:absolute;
+.sectionDesign{
     width:100%;
     height:100%;
-    overflow:hidden;
 }
 
-#head-conents .container{
-    position: absolute;
+/*TOPページ*/
+#top{
+    width:100%;
+    height:100%;    
+    background-color:#060200;
 }
 
-#head-contents h1{
-    float:left;
-    margin:0;
+#keyImg{
+    width:100%;
+    height:100%; 
 }
 
-#head-contents #head-nav-button{
-    background-color: pink;
-    color:white;
+/*ここまでTOPページ*/
+.pageSection{
+    width:100%;
+    box-sizing: border-box;
+}
+
+/*ストーリー*/
+#story{
+    width:100%;
+}
+
+#storyWrapper{
+
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+#storyContent img{
+    width:90%;
     display:block;
-    width:50px;
-    height:50px;
-    border-radius:50%;
-    border: mediumvioletred solid 1px;
-
-    position: absolute;
-    right:20px;
-    top:20px;
-    z-index:1000;
+    box-sizing: border-box;
+    margin: 0px auto;
+    margin-bottom:10px;
 }
 
-#head-contents img#load_button{
-    position:absolute;
-    display: none;
-    opacity: 0;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
-    z-index:995;
-    width:300px;
+#storyContent p{
+    box-sizing: border-box;
+    padding:10px;
+
 }
 
-#head-contents img#load_button:hover{
-    cursor: pointer;
+/*ここまでストーリー*/
+
+/*キャラクター*/
+
+#chara{
+    overflow:hidden;
 }
 
-@media(min-width:768px){
-    #head-contents #head-nav-button{
-        display: none;
-    }
+#chara li{
+    width:240px;
+    margin-left:10px;
+    float:left;
 }
 
-@media(min-width:768px){
-    #head-contents h1 img{
-        height:180px;
-        margin-top:15px;
-    }
-}
-
-@media(max-width:768px){
-    #head-contents h1 img{
-        width:calc(100% - 100px);
-        margin-top:5px;
-    }
-}
-
-
-
-/*ホームのCSS*/
-section#home{
-    box-sizing:border-box;
-    padding-top:80px;
-    height:100%;
+#chara li img{
     width:100%;
-    background-color:#030101;
-    background-size:cover;
+}
+
+/*キャラクター*/
+
+/*スペシャル*/
+
+#special h3{
+    color:#dfdfdf;
+}
+
+#special h4{
+    padding-top:15px;
+    padding-left:20px;
+    color:#dfdfdf;
+}
+
+#special img{
+    width:90%;
+    display:block;
+    margin:0px auto;
+    box-sizing: border-box;
+    margin-bottom:10px;
+}
+
+#specialDesign{
+    background-color:rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+
+/*スペシャルここまで*/
+
+/*specここから*/
+
+#spec h3{
+    color:#efefef;
+}
+
+dl{
+    margin-top:30px;
+    margin-left: 10%;
+}
+
+dt{
+    color:white;
+    float:left;
+}
+
+dd{
+    color:white;
+    margin-left:55px;
+    margin-bottom:30px;
+}
+
+#spec a{
+    color:lightblue;
+}
+
+/*spceここまで*/
+
+
+
+
+
+.contents{
+    box-sizing: border-box;
+}
+
+
+.pageSection{
+    box-sizing: border-box;
+
+    width:100%;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding:5px;
 }
 
 
 
-#home-char{
+
+
+
+@media screen and (max-width: 900px){
+
+
+
+.pageSection{
+    box-sizing: border-box;
     width:100%;
-    height:100%;
-    background:url("img/img.jpg") bottom no-repeat;
+    padding:15px;
+
+}
+
+#storyWrapper{
+    box-sizing: border-box;
+    background-color:rgba(226,226,226,0.7);
+    padding:15px;
+    width:100%;
+    height: 100%;
+}
+
+
+#storyContent{
+    box-sizing: border-box;
+    background-color:rgba(226,226,226,0.8);
+    
+    border-radius:10px;
+    height:calc( 100% - 50px);
+    /*width:calc( 100% );*/
+
+}
+
+#specialDesign{
+    border-radius: 10px;
+}
+
+#chara li{
+    width:47%;
+    margin-left:2%;
+    float:left;
+}
+
+#chara li img{
+    width:100%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 900px){
+    .sectionWrapper{
+    box-sizing: border-box;
+    padding:15px;
+    width:850px;
+    margin:0 auto;
+    height: 100%;
+
+    }
+
+    .contents{
+    box-sizing: border-box;
+    /*background-color:rgba(226,226,226,0.8);*/
+    
+    border-radius:10px;
+    height:calc( 100% - 50px);
+    /*width:calc( 100% );*/
+    }
+
+    #storyWrapper{
+    box-sizing: border-box;
+    padding:15px;
+    width:850px;
+    margin:0 auto;
+    height: 100%;
+}
+
+
+#storyContent{
+    box-sizing: border-box;
+    background-color:rgba(226,226,226,0.8);
+    
+    border-radius:10px;
+    height:calc( 100% - 50px);
+    /*width:calc( 100% );*/
+
+}
+
+#storyDesign{
+       background-color:rgba(226,226,226,0.6); 
+}
+
+
+#chara li{
+    width:240px;
+    margin-left:10px;
+    float:left;
+}
+
+#chara li img{
+    width:100%;
+}
+}
+
+/*ストーリーここまで*/
+
+
+
+
+/*縦長画面設定*/
+@media screen and (max-device-aspect-ratio: 1/1){
+
+
+
+#keyImg{
+    background-image:url(img/smTop.jpg);
     background-size:contain;
-    background-repeat:no-repeat;
-    position:absolute;
-    right:0;
-    left:0;
-    bottom:0;
-}
-
-@media(max-aspect-ratio:1/1){
-    #home-char{
-        background:url("img/img-sm.jpg") bottom no-repeat;
-        background-size:contain;
-        background-repeat:no-repeat;
-        position:absolute;
-        right:0;
-        left:0;
-        bottom:0;
-        width:100%;
-        height:100%;
-}
-}
-
-#home #home-container{
-    position:absolute;
-    right:0;
-    left:0;
-    top:0;
-    bottom:0;
-    padding:0;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 
 #story{
-    background:url("img/mori.jpg") no-repeat ;
+    background-image:url(img/smStory.jpg);
     background-size:cover;
-    box-sizing:border-box;
-    background-position:center;
-    padding:0;
-        min-height:650px;  
-}
-
-#story .container{
-    background-color:rgba(255,255,255,0.8);
-  
-}
-
-#story #storyContent{
-
-    background-color:rosybrown;
-    box-sizing:border-box;
-    margin:10px;
-    padding:15px 20px;
-    border-radius:3px;
-    box-sizing:border-box;
-    text-align:center;
-
-}
-
-#story #bb-bookblock{
-    width:100%;
-    height:500px;
-    box-shadow:0px 0px 7px 7px rgba(0,0,0,0.4) ;
-    z-index:40;
-}
-
-#story #storyContent .bb-item {
-    background-image:url('img/book.jpg');
-    z-index:50;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 
-
-#story .nav-button-item:hover{
-    cursor:pointer;
-}
-
-/*キャラクター*/
-#charactor{
-    background:url("img/shiro.jpg") no-repeat ;
+#chara{
+    background-image:url(img/smRoom.jpg);
     background-size:cover;
-    background-position:center;
-    box-sizing:border-box;
-    padding:0;
-    min-height:800px;
-}
-
-#charactor .container{
-    background-color:rgba(255,255,255,0.8);
-
-}
-
-#charactor ul{
-    list-style:none;
-    box-sizing:border-box;
-    padding:0 5px;
-}
-
-@media(min-width:768px){
-    #charactor ul{
-        width:100%;
-        box-sizing: border-box;
-        padding: 0 40px;
-    }
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 
-#charactor ul li {
-    overflow:hidden;
-    margin-bottom:10px;
-    box-sizing: border-box;
+#special{
+    background-image:url(img/classRoom.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-#charactor ul li a{
-    box-sizing: border-box;
-    display:block;
-    width:100%;
-    height:100%;
-}
-#charactor ul li .bg-char-img {
-    box-sizing:border-box;
-    border:4px solid;
-    width:80px;
-    height:80px;
 
+
+#spec{
+    background-image:url(img/pro_bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 }
 
-#charactor ul li .bg-char-img img{
-    width:100%;
-    height:100%;
-    display:block;
+/*横長画面設定*/
+@media screen and (min-device-aspect-ratio: 1/1){
+
+
+
+#keyImg{
+    background-image:url(img/title_bg.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-#charactor ul li .char-name {
-    border-bottom:5px solid ;
-    box-sizing:border-box;
-    height:80px;
-    width:calc(100% - 80px);
-    font-size:40px;
 
+#story{
+    background-image:url(img/shiro.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-#charactor ul li:nth-child(2n+1) .bg-char-img  {
+#chara{
+    background-image:url(img/room.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#special{
+    background-image:url(img/classRoom.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+#spec{
+    background-image:url(img/pro_bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#chara li{
+    width:31%;
+    margin-left:2%;
     float:left;
 }
 
-#charactor ul li:nth-child(2n+1)  .char-name {
-    float:right;
-    text-align:left;
-}
-
-#charactor ul li:nth-child(2n) .bg-char-img  {
-    float:right;
-}
-
-#charactor ul li:nth-child(2n) .char-name {
-    float:left;
-    text-align:right;
+#chara li img{
+    width:100%;
 }
 
 
-footer{
-    margin-top:20px;
-    padding-top:5px;
-    border-top:solid 2px pink;
-    color:pink;
-    font-size:150%;
 }
