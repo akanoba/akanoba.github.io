@@ -1,0 +1,411 @@
+html,body{
+    width:100%;
+    height:100%;
+ }
+
+ body{
+    -webkit-text-size-adjust: none;
+
+ }
+
+*{
+    color:#2d1a05;
+    font-family: YuMincho, 'Yu Mincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 16px;  
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-weight: bold;
+
+    color:#2d1a05;
+}
+
+h1{
+    display: none;
+}
+
+h3{
+    font-size:25px;
+    margin-bottom:5px;
+}
+
+h4{
+    font-size:18px;
+
+}
+
+#wrapper{
+    width:100%;
+    height:100%;
+}
+
+header{
+    position:fixed;
+
+}
+
+.sectionDesign{
+    width:100%;
+    height:100%;
+}
+
+/*TOPページ*/
+#top{
+    width:100%;
+    height:100%;    
+    background-color:#060200;
+}
+
+#keyImg{
+    width:100%;
+    height:100%; 
+}
+
+/*ここまでTOPページ*/
+.pageSection{
+    width:100%;
+    box-sizing: border-box;
+}
+
+/*ストーリー*/
+#story{
+    width:100%;
+}
+
+#storyWrapper{
+
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+#storyContent img{
+    width:90%;
+    display:block;
+    box-sizing: border-box;
+    margin: 0px auto;
+    margin-bottom:10px;
+}
+
+#storyContent p{
+    box-sizing: border-box;
+    padding:10px;
+
+}
+
+/*ここまでストーリー*/
+
+/*キャラクター*/
+
+#chara{
+    overflow:hidden;
+}
+
+#chara li{
+    width:240px;
+    margin-left:10px;
+    float:left;
+}
+
+#chara li img{
+    width:100%;
+}
+
+/*キャラクター*/
+
+/*スペシャル*/
+
+#special h3{
+    color:#dfdfdf;
+}
+
+#special h4{
+    padding-top:15px;
+    padding-left:20px;
+    color:#dfdfdf;
+}
+
+#special img{
+    width:90%;
+    display:block;
+    margin:0px auto;
+    box-sizing: border-box;
+    margin-bottom:10px;
+}
+
+#specialDesign{
+    background-color:rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+
+/*スペシャルここまで*/
+
+/*specここから*/
+
+#spec h3{
+    color:#efefef;
+}
+
+dl{
+    margin-top:30px;
+    margin-left: 10%;
+}
+
+dt{
+    color:white;
+    float:left;
+}
+
+dd{
+    color:white;
+    margin-left:55px;
+    margin-bottom:30px;
+}
+
+#spec a{
+    color:lightblue;
+}
+
+/*spceここまで*/
+
+
+
+
+
+.contents{
+    box-sizing: border-box;
+}
+
+
+.pageSection{
+    box-sizing: border-box;
+
+    width:100%;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding:5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+
+
+
+.pageSection{
+    box-sizing: border-box;
+    width:100%;
+    padding:15px;
+
+}
+
+#storyWrapper{
+    box-sizing: border-box;
+    background-color:rgba(226,226,226,0.7);
+    padding:15px;
+    width:100%;
+    height: 100%;
+}
+
+
+#storyContent{
+    box-sizing: border-box;
+    background-color:rgba(226,226,226,0.8);
+    
+    border-radius:10px;
+    height:calc( 100% - 50px);
+    /*width:calc( 100% );*/
+
+}
+
+#specialDesign{
+    border-radius: 10px;
+}
+
+#chara li{
+    width:47%;
+    margin-left:2%;
+    float:left;
+}
+
+#chara li img{
+    width:100%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 900px){
+    .sectionWrapper{
+    box-sizing: border-box;
+    padding:15px;
+    width:850px;
+    margin:0 auto;
+    height: 100%;
+
+    }
+
+    .contents{
+    box-sizing: border-box;
+    /*background-color:rgba(226,226,226,0.8);*/
+    
+    border-radius:10px;
+    height:calc( 100% - 50px);
+    /*width:calc( 100% );*/
+    }
+
+    #storyWrapper{
+    box-sizing: border-box;
+    padding:15px;
+    width:850px;
+    margin:0 auto;
+    height: 100%;
+}
+
+
+#storyContent{
+    box-sizing: border-box;
+    background-color:rgba(226,226,226,0.8);
+    
+    border-radius:10px;
+    height:calc( 100% - 50px);
+    /*width:calc( 100% );*/
+
+}
+
+#storyDesign{
+       background-color:rgba(226,226,226,0.6); 
+}
+
+
+#chara li{
+    width:240px;
+    margin-left:10px;
+    float:left;
+}
+
+#chara li img{
+    width:100%;
+}
+}
+
+/*ストーリーここまで*/
+
+
+
+
+/*縦長画面設定*/
+@media screen and (max-device-aspect-ratio: 1/1){
+
+
+
+#keyImg{
+    background-image:url(img/smTop.jpg);
+    background:blue;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#story{
+    background-image:url(img/smStory.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#chara{
+    background-image:url(img/smRoom.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#special{
+    background-image:url(img/classRoom.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+#spec{
+    background-image:url(img/pro_bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+}
+
+/*横長画面設定*/
+@media screen and (min-device-aspect-ratio: 1/1){
+
+
+
+#keyImg{
+    width: 100vw;
+    background-image:url(img/title_bg.jpg);
+    background:red;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#story{
+    background-image:url(img/shiro.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#chara{
+    background-image:url(img/room.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#special{
+    background-image:url(img/classRoom.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+#spec{
+    background-image:url(img/pro_bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#chara li{
+    width:31%;
+    margin-left:2%;
+    float:left;
+}
+
+#chara li img{
+    width:100%;
+}
+
+
+}
