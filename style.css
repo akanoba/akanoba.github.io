@@ -305,7 +305,7 @@ footer{
 
 
 /*縦長画面設定*/
-@media screen and (max-device-aspect-ratio: 1/1){
+@media screen and (max-aspect-ratio: 1/1){
 
 
 
@@ -351,11 +351,12 @@ footer{
 }
 
 /*横長画面設定*/
-@media screen and (min-device-aspect-ratio: 1/1){
+@media screen and (min-aspect-ratio: 1/1){
 
 
 
 #keyImg{
+
     background-image:url(img/title_bg.jpg);
     background-size:contain;
     background-repeat: no-repeat;
