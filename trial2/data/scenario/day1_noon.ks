@@ -3,8 +3,6 @@
 [cm  ]
 [clearfix]
 
-[bg storage="room.jpg" time="1000"]
-
 ;メニューボタンの表示
 @showmenubutton
 
@@ -53,17 +51,19 @@
 [chara_face name="akari" face="ouji_zannen" storage="chara/akari_ouji_zannen.png"]
 [chara_face name="akari" face="ouji_oko" storage="chara/akari_ouji_oko.png"]
 
+[bg storage="black.png" time="1000"]
+
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-[chara_mod name="akari" face="ouji_zannen"]
+[chara_mod name="akari" face="hutsuu_zannen"]
 [chara_show name="akari"]
-## あかり
+# あかり
 　ん・・・ここは・・・？[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　上方を覆う、高価そうな装飾が施された天蓋が目に入る。[p]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## ???(コルデリア)
+# ???(コルデリア)
 　お目覚めになられましたか？王子様。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -71,16 +71,19 @@
 　横から聞こえてくる、まだ幼さを感じるようなソプラノの女の子の声。[l][r]
 　全身を包み込む暖かく、柔らかい感触。[p]
 
+
+[bg storage="shinshitsu.png" time="1000"]
+
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-[chara_mod name="akari" face="ouji_odoroki"]
-## あかり
+[chara_mod name="akari" face="hutsuu_odoroki"]
+# あかり
 　ここはどこ？[p]
 
-## あかり
+# あかり
 　（放課後まことと一緒にホットケーキを食べに行こうとしてて・・・）[p]
 
 
-## あかり
+# あかり
 　（そして、駅のホームから私は・・・っ）[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -90,10 +93,10 @@
   その中央に設置された大きな天蓋付きのベッドに私は寝かされていたらしい。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## ???(コルデリア)
+# ???(コルデリア)
 　落ち着いてください王子様。ここは安全です。[p]
 
-## あかり
+# あかり
 　え・・・？[p]
 [chara_mod name="col" face="hutsuu"]
 [chara_show name="col"]
@@ -109,10 +112,10 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
+# あかり
 　あなたは？[p]
 
-## コルデリア
+# コルデリア
 　この「城」でメイドを任されております、コルデリアと申します。[l][r]
   ご入用の際は、お気軽にメイドとお呼びつけください。[l][r]
   王子様。[p]
@@ -125,13 +128,13 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　最初のご質問・・・ですが、みなここのことは「城」と呼んでいます。[l][r]
   固有の名称は特にございません。[l][r]
-　王子がいらした場所とは別の世界のございます故、具体的な場所・・・[r]
+　王子がいらした場所とは別の世界のございます故、具体的な場所・・・[p]
   というのを説明するのは難しいかと。[p]
 
-## あかり
+# あかり
 　ちょっと待って、それはどういうこと？[l][r]
 　それに王子っていうのはなんなの？[p]
 
@@ -142,7 +145,7 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　後ほど、皆が揃った場にて説明させていただきます。[l][r]
   それまでご辛抱ください。[p]
 
@@ -155,21 +158,21 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　そろそろ夕食の時刻となります。[l][r]
   お食事は他の皆の分と一緒に食堂の方に用意していますが、[r]
   体調がすぐれないようでしたらこちらにお持ちいたしましょうか？[p]
-[chara_mod name="akari" face="ouji_hutsuu"]
-## あかり
+[chara_mod name="akari" face="hutsuu_hutsuu"]
+# あかり
 　食堂には皆・・・も来るの？[p]
 
-## コルデリア
+# コルデリア
 　左様でございます。[p]
 
-## あかり
+# あかり
 　それなら食堂で食べたいな。[p]
 
-## コルデリア
+# コルデリア
 　畏まりました。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -177,12 +180,12 @@
 　メイドさんはそう言うとベッドサイドから何かを取り上げた。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　新しいお召し物をこちらにご用意しております。[l][r]
   食事の目にお召し替えいたしましょう。[p]
 
-[chara_mod name="akari" face="ouji_nikkori"]
-## あかり
+[chara_mod name="akari" face="hutsuu_nikkori"]
+# あかり
 　うん。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -192,7 +195,7 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　失礼致します。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -201,8 +204,8 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-[chara_mod name="akari" face="ouji_hazui"]
-## あかり
+[chara_mod name="akari" face="hutsuu_hazui"]
+# あかり
 　自分で着替えるから大丈夫・・・です・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -213,7 +216,7 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　失礼いたしました。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -221,22 +224,23 @@
 　メイドさんから着替えを受け取り、そそくさと着替えた。[p]　
 
 
+[chara_mod name="col" face="nikkori"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　お似合いです。[p]
 
 [chara_mod name="akari" face="ouji_nikkori"]
-## あかり
+# あかり
 　ありがとう[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
-　メイドさんの感情のこもってない褒め言葉。[l][r][l][r]
+　メイドさんの感情のこもってない褒め言葉。[l][r]
 　そういう子なのか、本心とは違う言葉なのか・・・[p]
 
-
+[chara_mod name="col" face="hutsuu"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　こちらへどうぞ[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -247,7 +251,7 @@
 
 [chara_mod name="akari" face="ouji_odoroki"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
+# あかり
 　・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -256,16 +260,16 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
+# あかり
 　王子様・・・？[p]
 
-## コルデリア
+# コルデリア
 　左様でございます。この「城」には定期的に外の世界から、王子様がいらすことになっております。[p]
 
-## あかり
+# あかり
 　そうじゃなくて、何で私は王子様なの？[p]
 
-## コルデリア
+# コルデリア
 　？[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -275,10 +279,10 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
+# あかり
 　何で私、女なのに「王子様」なの？[p]
 
-## コルデリア
+# コルデリア
 　それはわかりかねます。[l][r]
   ですが、外の世界から王子様がいらす、そういうことになっております。[p]
 
@@ -288,7 +292,7 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　そろそろ食堂の方へ参りましょう。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -298,7 +302,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_mod name="col" face="odoroki"]
-## コルデリア
+# コルデリア
 　どうかされましたか？[p]
 
 [chara_mod name="akari" face="ouji_hutsuu"]
@@ -309,7 +313,7 @@
 
 [chara_mod name="col" face="hutsuu"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　こちらになります。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -319,7 +323,7 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　お足元にお気をつけください。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -329,12 +333,16 @@
 
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
+# コルデリア
 　こちらが食堂になります。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　扉のなかには、5人の「姫」たちがいた。[p]
 
+[chara_hide name="col"]
+[chara_hide name="akari"]
+
+[wait time=1000]
 
 @jump storage="day1_night.ks"

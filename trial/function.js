@@ -9,6 +9,6 @@ function fullscreen(){
 
 
 function scroll(){
-    setTimeout(function(){window.scrollTo(0, 300);}, 500);
+    window.setTimeout(function(){window.scrollTo(0, 300);}, 500);
     
 }

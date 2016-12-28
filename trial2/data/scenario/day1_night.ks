@@ -4,7 +4,8 @@
 [cm  ]
 [clearfix]
 
-[bg storage="room.jpg" time="1000"]
+
+[bg storage="shokudou.png" time="1000"]
 
 ;メニューボタンの表示
 @showmenubutton
@@ -52,7 +53,7 @@
 [chara_face name="akari" face="ouji_hazui" storage="chara/akari_ouji_hazui.png"]
 [chara_face name="akari" face="ouji_odoroki" storage="chara/akari_ouji_odoroki.png"]
 [chara_face name="akari" face="ouji_nikkori" storage="chara/akari_ouji_nikkori.png"]
-[chara_face name="akari" face="ouji_hazui" storage="chara/akari_ouji_zannen.png"]
+[chara_face name="akari" face="ouji_zannen" storage="chara/akari_ouji_zannen.png"]
 [chara_face name="akari" face="ouji_oko" storage="chara/akari_ouji_oko.png"]
 
 [chara_new name="marry" storage="chara/marry_hutsuu.png"]
@@ -69,9 +70,14 @@
 [chara_new name="boy" storage="chara/boy.png"]
 
 
+[chara_show name="col"]
+
+[chara_mod name="akari" face="ouji_hutsuu"]
+[chara_show name="akari"]
+
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ???(ルドヴィアカ)
+# ???(ルドヴィアカ)
 　新しい王子をまずは歓迎しようじゃないか[p]
 
 [chara_show name="akari"]
@@ -84,18 +90,18 @@
 
 [chara_show name="choujo"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## ルドヴィカ
+# ルドヴィカ
 　私はルドヴィカ、この「城」の「姫」の1人だ。[l][r]
 　この度は新しい王子を迎えられたことを光栄に思う。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　王子とは何なのか、そう口を開きかける。[l][r]
-　それをすでにわかっていたのだろう、ルドヴィカさんはそれを遮るように言葉を続けた。[p]
+　それをすでにわかっていたのだろう、[r]ルドヴィカさんはそれを遮るように言葉を続けた。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　いきなりのことでまだ戸惑っていることだろうが・・・[r]
   出来るだけのことはするから、何かあったら遠慮なく言って欲しい。[l][r]
 　まずは、自己紹介といこうか。[p]
@@ -106,18 +112,20 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_show name="boy"]
-## ローザ
+# ローザ
 　私はローザと言います。よろしく、王子様。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
-　よそ行きの、といったらいいのだろうか、内面を感じさせない柔らかい表情と声。[l][r]
-　ただ、その整った中性的な顔立ちとそこに浮かべられた笑みに、[r]同性だとわかっていても思わずどきりとしてしまう。[p]
+　よそ行きの、といったらいいのだろうか、[r]
+  内面を感じさせない柔らかい表情と声。[l][r]
+　ただ、その整った中性的な顔立ちとそこに浮かべられた笑みに、[r]
+  同性だとわかっていても思わずどきりとしてしまう。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
 [chara_mod name="akari" face="ouji_nikkori"]
-## あかり
+# あかり
 　こちらこそ・・・よろしくお願いします。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -127,9 +135,11 @@
 
 [chara_mod name="akari" face="ouji_odoroki"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
+
+[chara_mod name="marry" face="human"]
 [chara_show name="marry"]
-[chara_mod name="marry" face="marry_human"]
-## マリー
+
+# マリー
 　マリー。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -138,15 +148,15 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## マリー
+# マリー
 　一週間立ったらさっさと出ていきなさいよ[p]
 
-## あかり
+# あかり
 　えっ？[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_mod name="marry" face="oko"]
-## マリー
+# マリー
 　あんた何も知らないの？[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -155,11 +165,11 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## マリー
+# マリー
 　メイドっ、あんた・・[p]
 
 [chara_mod name="choujo" face="tameiki"]
-## ルドヴィカ
+# ルドヴィカ
 　マリー[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -167,9 +177,10 @@
 　ルドヴィカさんが難しい顔をしてたしなめる。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
+[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-[chara_mod name="oko" face="hutsuu"]
-## マリー
+[chara_mod name="marry" face="hutsuu"]
+# マリー
 　ごめんなさい[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -181,7 +192,7 @@
 
 [chara_mod name="choujo" face="hutsuu"]
 [chara_mod name="akari" face="ouji_hutsuu"]
-## ？？？
+# ？？？
 　よろしいですか？[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -190,13 +201,13 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_show name="kin"]
-## エミリア
+# エミリア
 　私、エミリアと申します。[l][r]
   素敵な王子様を迎えられてと手に光栄に思いますわ。[l][r]
 　どうぞよろしくお願いいたします。[p]
 
 [chara_mod name="akari" face="ouji_nikkori"]
-## あかり
+# あかり
 　こちらこそよろしくお願いします。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -207,7 +218,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_mod name="akari" face="ouji_hutsuu"]
-## ？？？
+# ？？？
 　最後はあたしだねっ[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -218,18 +229,18 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## イファ
+# イファ
 　あたしはイファ。[l][r]
   よろしくねっ[l][r]
 　王子のこと詳しく知りたいな[p]
 
 [chara_mod name="akari" face="ouji_nikkori"]
-## あかり
+# あかり
 　よろしくね、イファちゃん[l][r]
 　ええっと、私は姫路明、姫百合ケ丘高校の1年生・・・です。[l][r]
 　その・・・よろしくお願いします。[p]
 
-## イファ
+# イファ
 　高校ってなんなの？[p]
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 
@@ -239,14 +250,15 @@
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
 [chara_mod name="akari" face="ouji_nikkori"]
-## あかり
+# あかり
 　う～ん、なんって説明したらいいのかな、[r]
   同じくらいの年の子たちが一緒に勉強をするところって言ったらわかるかな・・・[p]
 
-## イファ
+# イファ
 　一緒にって何人くらい？[p]
 
-## ルドヴィカ
+[chara_mod name="akari" face="ouji_hutsuu"]
+# ルドヴィカ
 　コホン[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -255,7 +267,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## コルデリア
+# コルデリア
 　失礼致します。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -266,7 +278,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　さて、[p]
 
 
@@ -276,7 +288,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　そろそろ、この「城」に伝わる試練の話をしようか。[l][r]
 　本来は事前にメイドが説明するしきたりなのだが、[p]
 
@@ -286,11 +298,12 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
-　こういう事態は誰も考えたことがなかったからな、仕方ない。
+# ルドヴィカ
+　こういう事態は誰も考えたことがなかったからな、仕方ない。[l][r]
 　なんせ「女性の王子」というのは初めてなものでね。[p]
 
-## あかり
+[chara_mod name="akari" face="ouji_odoroki"]
+# あかり
 　っ・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -303,27 +316,32 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　とはいえ、他はこれまでのしきたりと変わらないはずだ。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 
 #
-　総言葉を続けるルドヴィカさんの声色にはどこか[r]失望の念が混じっているような気がした。[p]
+　総言葉を続けるルドヴィカさんの声色にはどこか[r]
+  失望の念が混じっているような気がした。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## あかり
+[chara_mod name="akari" face="ouji_zannen"]
+# あかり
 　その、どうして私はここへ来た・・・のでしょうか？[p]
 
-## ルドヴィカ
-　この「城」のは「王の試練」というものが古くから遺されている。君がこちらへ呼び出されたのは、その影響だ。
-　「城」だけでなく、この一帯がまだ「国」として栄えていた頃の、王を決めるための儀式なのだ。[p]
+# ルドヴィカ
+　この「城」のは「王の試練」というものが古くから遺されている。[l][r]
+  君がこちらへ呼び出されたのは、その影響だ。[l][r]
+　「城」だけでなく、この一帯がまだ「国」として栄えていた頃の、[r]
+  王を決めるための儀式なのだ。[p]
 
-## あかり
-　？？？
+[chara_mod name="akari" face="ouji_odoroki"]
+# あかり
+　？？？[p]
 
-## ルドヴィカ
+# ルドヴィカ
 　ああ、すまない。[l][r]
   まずは、このかつて「国」だったこの世界の成り立ちから説明したほうが早いか・・・[l][r]
 　はるか昔、この国は戦乱や疫病、天災といった数々の危機の直面し、[r]国の存続すら危うくなったそうな。[l][r]
@@ -331,15 +349,19 @@
 　そして、その見返りとして古の魔女はこの「国」の女王の地位についた。[l][r]
 　しばらくはとても平和な時代が続いたらしいい。[p]
 
-## ルドヴィカ
+
+[chara_mod name="akari" face="ouji_hutsuu"]
+[chara_mod name="choujo" face="tameiki"]
+# ルドヴィカ
 　ある日、王が死んだ。[l][r]
   人である以上寿命はある。[l][r]
-  [l][r]ただ、「王」の存在は「国」にとって必要不可欠だと女王は考えた。[l][r]
+  ただ、「王」の存在は「国」にとって必要不可欠だと女王は考えた。[l][r]
 　そこで女王、魔女が定めたのが王の試練だ。[l][r]
 　外の世界から王を務めるのにふさわしそうな人物をこちらに招き、[r]１週間王子として国を治めてもらう。[l][r]
 その手腕が女王に認められれば、王位を得ることができる。[p]
 
-## ルドヴィカ
+[chara_mod name="choujo" face="tameiki"]
+# ルドヴィカ
 　無論それを断って、元の世界に帰ることも可能だ。[l][r]
   認められなかった場合も元の世界に戻される。[l][r]
 　正確に言えば、その１週間の礼としてなんでも願いを１つ叶える権利を渡され、[r]
@@ -355,13 +377,13 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　国民の数は段々と減っていった。[l][r]
   そして、ある日突然、女王が消えた。[l][r]
 　そしてその後も国民の数は減っていった。[l][r]
 　そして残ったのは、私たちは魔女の末裔とその試練だけだ。[p]
 
-## ローザ
+# ローザ
 　ルドヴィカ姉さん[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -370,7 +392,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　いい、隠していても何も始まらん[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -380,7 +402,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　王子がこの「城」へ招かれた理由というにはあやふやだが、だいたいこういった事情によるものだ。[l][r]
 　先程も言ったとおり、女性の王子と言うのは少なくとも記録に残っている中でははじめてで、[r]
   異例のことなのだが、それについて何か心当たりは無いか？[p]
@@ -391,8 +413,10 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ルドヴィカ
+# ルドヴィカ
 　そうか[p]
+
+[chara_mod name="akari" face="ouji_odoroki"]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
@@ -400,29 +424,34 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## あかり
+# あかり
 　すみません[p]
 
-## ルドヴィカ
-　君が謝ることじゃない
+# ルドヴィカ
+　君が謝ることじゃない。[r][l]
 　あて、そろそろお開きにするかな[p]
 
+
+[chara_hide name="choujo"]
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　そういうと、ルドヴィカさんは席を立った。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## エミリア
+# エミリア
 　それでは私も[p]
 
-## イファ
-　私も行くっ
+# イファ
+　私も行くっ[r]
 　エミリア、ピアノの続き教えて[p]
 
-## エミリア
-　構いませんよ
+# エミリア
+　構いませんよ。[r]
 　一緒にいきましょう。[p]
+
+[chara_hide name="kin"]
+[chara_hide name="drill"]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
@@ -430,7 +459,7 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## あかり
+# あかり
 　それじゃ私も・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -439,8 +468,9 @@
 　続いて私も席を立とうとしたその時だった。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## マリー
+[chara_mod name="akari" face="ouji_odoroki"]
+[chara_mod name="marry" face="oko"]
+# マリー
 　メイド・・・コルデリアっ[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -449,31 +479,34 @@
 　そして、食器類を片付け始めていたコルデリアちゃんのおさげを思いっきり引っ張る。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## コルデリア
+[chara_mod name="col" face="odoroki"]
+# コルデリア
 　どう・・・されたのですか・・・[p]
 
+[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 
 #
 　表情の変化はあいかわらず乏しいものの、その顔は恐怖にすくんでいるように見えた。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## マリー
+# マリー
 　なんでちゃんと自分の役割を果たさないっ[l][r]
 　その上ルドヴィカ姉さんに押し付けて、何様のつもりなの[p]
 
-## コルデリア
+[chara_mod name="col" face="suman"]
+[chara_mod name="col" face="suman"]
+# コルデリア
 　それは・・・しきたりと違う部分があり、私だけでは判断がつかず・・・[p]
 
-## マリー
+# マリー
 　口答えするつもり？[p]
 
-## ローザ
+# ローザ
 　マリー、やめろ[p]
 
-## あかり
+[chara_mod name="akari" face="ouji_odoroki"]
+# あかり
 　なにするんですか・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -483,13 +516,13 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## あかり
+# あかり
 　大丈夫？[p]
 
-## コルデリア
+# コルデリア
 　大丈夫・・・です・・・[p]
 
-## マリー
+# マリー
 　大体、あんたなんかが来るから行けないのよ[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -498,26 +531,29 @@
 　マリーさんの、そしてローザさんの冷たい瞳は、[r]まっすぐと私を見つめている。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## マリー
-　図々しくわたしたちの間に入り込んで来て・・・ [r]何様のつもりなの？[p]
+# マリー
+　図々しくわたしたちの間に入り込んで来て・・・ [l][r]
+  何様のつもりなの？[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
-　わたしは、何も言葉を返せなかった。
-　ただ私がよそ者であるということ、それがじわりじわりと胸を犯していく。[p]
+  わたしは、何も言葉を返せなかった。[l][r]
+  ただ私がよそ者であるということ、それがじわりじわりと胸を犯していく。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## ローザ
+# ローザ
 　マリー、行こう[p]
 
+[chara_hide name="boy"]
+[chara_hide name="marry"]
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　人と人がいがみ合ったあとの嫌な雰囲気を残して、2人は食堂を出ていった。[p]
-
+[chara_mod name="akari" face="ouji_zannen"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## あかり
+# あかり
 　・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -526,8 +562,8 @@
 　よそ者であると言外に言われたことが、思いのほか堪えたらしい。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## コルデリア
+[chara_mod name="col" face="hutsuu"]
+# コルデリア
 　お部屋に戻られますか？[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -537,10 +573,10 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 
-## あかり
+# あかり
 　そうする・・・[p]
 
-## コルデリア
+# コルデリア
 　かしこまりました。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -548,359 +584,31 @@
 　何も言わないメイドさんの、その背中に誘導されて元の部屋に戻る。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## あかり
+[chara_mod name="akari" face="ouji_nikkori"]
+# あかり
 　ありがとう。[p]
 
-## コルデリア
-　とんでもござません。
+
+
+# コルデリア
+　とんでもござません。[l][r]
 　失礼いたします。[p]
+
+[chara_hide name="col"]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　音もなく巨大な扉が閉めらる。[p]
-
+[chara_mod name="akari" face="ouji_zannen"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
+# あかり
 　はぁ・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　これまでの一連の出来事を思い出し、どことなくため息を付いた。[p]
 
-/////////////////////////////////////////////////////////////////////////////////////いったんホワイトアウトで場面転換
+[chara_hide name="akari"]
+[wait time=2000]
 
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　ふと窓の外を見る。
-　屋根の上でなびく、ピンク色の髪が目に入った。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
-　メイドさんっ・・・[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　なんで屋根の上にっ[p]
-
-#
-　慌てて部屋を飛び出し、廊下を駆ける。[p]
-
-#
-　おおよその方向へ向かって進んでいく[p]
-
-#
-　それにしてもこのお城、6人しか、私を入れたとして も７人しかいないのにものすごい広い。[p]
-
-#
-　階段を上がる。[l][r]
-　先程のフロアまでのような豪奢な作りとは違い、[r]
-  むき出しの石造りの廊下に簡素な薄い板で作られたドアが並んでいる。[p]
-
-  [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
-　どこにいるの、メイドさんっ・・・・コルデリアちゃん！[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　ドアを片っ端から開けていこうと、手前側のドアに手をかけた瞬間、ドアの１つが開いた。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
-　ど、どうされたのですか、王子様[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　あまり感情を感じさせないコルデリアちゃんの驚いた声と表情。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
-　どうしたって、コルデリアちゃんが屋根の上にいるのが見えたから。
-　さっきあんなことがあったばかりだし、不安になって・・・[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
-　星を見ていたのです。[p]
-
-## あかり
-　星？[p]
-
-## コルデリア
-　城の屋根の上からが、星が一番良く見えるのです。[l][r]
-　その・・・粗相をしてしまった日などはよく当てもなく星を眺めています。気が・・・紛れるので・・・[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　コルデリアちゃんが驚いた顔からうつむきながらどことなく恥ずかしそうな表情に変化する。[l][r]
-　重大な勘違いしていたことに気づき、私自身に恥ずかしさがこみ上げてきた。[p]
-
-## あかり
-　ご、ごめん私何か勘違いしてた・・・[p]
-
-## コルデリア
-　その、私こそ紛らわしい真似を・・・[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　廊下で立ち尽くす私とコルデリアちゃん。[l][r]
-　その沈黙を破るべく、言葉を探る。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
-　そうだ、星[p]
-
-## コルデリア
-　えっ？[p]
-
-## あかり
-　星、一緒に見てもいいかな？[p]
-
-## コルデリア
-　もちろんですっ[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　パッと電球がついたみたいにコルデリアちゃんは弾けるような笑顔を浮かべた。[l][r]
-　落ち込んだ顔から、怪訝そうな顔、そして弾けるような笑顔。[l][r]
-　出会ったばかりのときとは別人なのかと思えるほど、[r]
-  今のコルデリアちゃんは表情豊かだ。[p]
-
-  [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
-　城の屋根から見るのが一番綺麗に見えます。そちらへいきましょう。[p]
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-
-#
-　いうが早いが先ほど自分が出てきたドアを開ける。[p]
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## コルデリア
-　どうぞ、私の部屋の窓から行くのが一番早いです。[p]
-
-## あかり
-　あ、ありがとう。[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　促され、コルデリアちゃんの部屋に入る。
-　屋根裏部屋というのだろうか？窓際に行くに連れて低くなっていく天井と、１つだけある小さな窓。
-　元の世界の私の部屋を基準にしても小さい部屋の中には木製の簡素なベッドと机、クローゼットが置かれている。
-　あまり他人の部屋をジロジロと観察するのは良くないと思いつつも、簡素な机の上に置かれた何冊もの分厚い本、そして積み重ねられた文字や図表で真っ黒になった用紙が目に入った。[p]
-
-## コルデリア
-　こちらです。[p]
-
-## あかり
-　うん[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　コルデリアちゃんに促され、窓から外へでる。[p]
-
-#
-　部屋の中にいるより強い風が冷や汗を乾かしていく。
-　屋根瓦の一部をくり抜き、そこを窓にした構造の屋根であるため、懸垂の要領で屋根へ出なければいけないといったことはなかったけれど、屋根の角度の傾斜はかなり大きい。
-　それをコルデリアちゃんはメイド服のまますいすい登っていった。[p]
-
-#
-　私も意を決してそれを追いかける。
-　時折足を滑らしかけつつも、後ろは絶対に振り返らないようにしながら。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"
-## コルデリア
-　ここからが、一番星空がきれいに見れます。[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　屋根の頂点。やっとの思いでコルデリアちゃんの横に腰掛けると、コルデリアちゃんは夜空を指差しながらそういった。
-　私もその指を追うようにして夜空を見上げる。
-　そこには満点の星空が広がっていた。[p]
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## あかり
-　うわあ・・・すごい綺麗・・・[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　私は思わず歓声をあげる。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## コルデリア
-　月は明日が一番大きくなりますよ。
-　星は月が出ないほうがきれいに見えるのですが、私は月も出ている方が好きです。[p]
-
-## あかり
-　まるでプラネタリウムみたい。[p]
-
-## コルデリア
-　ぷらねたりうむ？[p]
-
-## あかり
-　私のいた世界に、プラネタリウムっていう星空を再現する機械があるの。[p]
-
-## コルデリア
-　王子様の世界ではなぜ本物の星空を見ないのですか？[p]
-
-## あかり
-　街の明かりが明るすぎてね、こんな風に本物の星はほとんど見えないんだ。[p]
-
-## コルデリア
-　星のあかりを打ち消す程の光、それに星空を再現する機械・・・[r]
-  王子様のいらした世界はとても発展しているのですね。[l][r]
-  私にはとても想像がつきません。[l][r]
-　でも、とっても面白いです。[l][r]
-  街が栄えて、その街あかりで星が見えなくなり、[l][r]
-  それで忠実に星空を再現する機械を作るなんて。[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　クスリと、コルデリアちゃんが笑う。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## コルデリア
-　申し訳ありません！[l][r]
-　王子様がいらした世界のことを面白いだなんて、とても失礼なことを。[p]
-
-## あかり
-　そんなことないよ。[l][r]
-　それに・・・確かに面白いかも。[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　光害。[l][r]
-  社会科見学で訪れたプラネタリウムの係の人が言っていた。[l][r]
-  街の明かりで星空が見えなくなることをそういうんだと。[l][r]
-　プラネタリウムを最初に作った人はどう思いながらそれを作ったのだろう？[l][r]
-  街の発展とともに夜も明が増え、[r]見えなくなった星空を懐かしく思いながら作ったのだろうか？[l][r]
-　ただ今はそのプラネタリムがある科学館も、夜になれば電気をつける。[l][r]
-  そのあかりで星空は見えなくなる。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-
-## コルデリア
-　ところで、王子様は機械にはお詳しいのですか？[l][r]
-　ぜひ見ていただきたい物があるのですが[p]
-
-## あかり
-　詳しいってわけではないけれど、どんなもの？[p]
-
-## コルデリア
-　こちらなのですが[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　メイド服のポケットから取り出されたものは・・・虫眼鏡？[l]
-　丸い凸レンズが木製の枠にはめ込まれ、持ち手がつけられている。[p]
-
-## コルデリア
-　あるとき、水滴を通してものを見たときにそれが大きく見える事に気づきました。[l][r]
-  それを真似、星や月を大きく見てみようと、ガラスを磨いて作ってみました。[l][r]
-　ですが、思った通り大きく見れなくて・・・[p]
-
-## あかり
-　ちょっとそれ、見せてもらってもいい？[p]
-
-## コルデリア
-　どうぞ[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　手渡された虫眼鏡を通してコルデリアちゃんの顔を見る。[l][r]
-  私の知っている虫眼鏡と同様の働きをし、[r]
-  丸みを帯びた透明なガラス面いっぱいにコルデリアちゃんの真剣な表情が映る。[p]
-
-## あかり
-　ちゃんと出来てると思うけど。[p]
-
-## コルデリア
-　近くのものを見るときはいいのですが、[r]遠くのものを見るとぼやけてしまうのです。[p]
-
-## あかり
-　それは仕方ないんじゃないかな。[r]あまりに遠いと焦点が合わないし。[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　物理の授業を思い出す。[l][r]
-  凸レンズや凹レンズ、それらの焦点距離や倍率を計算するレンズの公式・・・[l][r]
-　凸レンズが作れるってことは、ひょっとしてあれ、作れる・・・？[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
-　望遠鏡を作ってみない？[p]
-
-## コルデリア
-　ぼうえんきょう・・・とはなんですか？[p]
-
-## あかり
-　星を見るための機械だよ。[l][r]遠くにある月や星もぼやけずに大きく見えるの。[p]
-
-## コルデリア
-　王子様のいいらした世界にはそんなものもあるのですね。[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　そう言うと、コルデリアちゃんの表情が暗くなる。[l][r]
-　それを見て私は不安になった。[l][r]
-　また私は相手の都合を考えず、自分の考えを押し付けてしまっているのだろうか？[l][r]
-　それとも、よそ者として許される1線を超えてしまっているのだろうか？[p]
-
-## コルデリア
-　でも本当に、私なんかにそんなものが作れるのですか？[p]
-
-## あかり
-　これはコルデリアちゃんが作ったんだよね？[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　手の中の虫眼鏡をコルデリアちゃんに見せる。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
-　そうですが・・・[p]
-
-## あかり
-　ならきっと作れるよ[p]
-
-## コルデリア
-　本当ですか？[l][r]
-　是非、作り方を教えてください！[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　コルデリアちゃんの表情がパァッとまるで電灯のスイッチを入れたかのように明るくなる。[l][r]
-　先程までの私の不安は杞憂だったことがわかったほっとする。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
-　もちろんいいんだけど、明日でもいいかな？
-　そろそろ眠くなってきちゃった。[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　そのせいで気が抜けたのか、思わずあくびが漏れる。[l][r]
-　時計がないからわかりづらいが、夜もかなり遅い。[l][r]
-　この状態でコルデリアちゃんに望遠鏡の原理を上手く説明できるかと[r]
-  言われると少し自信がない。[p]
-
-[position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## コルデリア
-　そう・・・ですね。[p]
-
-## あかり
-　ごめんね・・・[p]
-
-## コルデリア
-　いえ、私こそ王子様に無理を・・・[l][r]
-　お部屋までお送りいたします[p]
-
-## あかり
-　ありがとう[p]
-
-[position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
-#
-　部屋まで戻り、コルデリアちゃんにパジャマに着替えさせてもらい、豪奢なベットに潜り込む[l][r]。
-　このあたりの記憶は少し曖昧だ。[l][r]
-　目を閉じると先程のコルデリアちゃんの笑顔が脳裏に映る。[l][r]
-　かわいい、と思うと同時に、眠気で意識が薄れていった・・・・[p]
+@jump storage="day1_lastnight.ks"

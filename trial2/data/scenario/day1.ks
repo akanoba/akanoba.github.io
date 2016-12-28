@@ -3,7 +3,6 @@
 [cm  ]
 [clearfix]
 
-[bg storage="room.jpg" time="1000"]
 
 ;メニューボタンの表示
 @showmenubutton
@@ -53,6 +52,8 @@
 [chara_face name="akari" face="ouji_zannen" storage="chara/akari_ouji_zannen.png"]
 [chara_face name="akari" face="ouji_oko" storage="chara/akari_ouji_oko.png"]
 
+[bg storage="black.png" time="1000"]
+
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
@@ -97,6 +98,8 @@
 
 [chara_new name="makoto" storage="chara/makoto.png"]
 
+[bg storage="room.jpg" time="1000"]
+
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_show name="makoto"]
@@ -130,21 +133,21 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_mod name="akari" face="hutsuu_hutsuu"]
-## あかり
+# あかり
 　今日部活は？[p]
 
-## まこと
+# まこと
 　顧問の先生に突然出張が入ったらしく、今日は休み。[p]
 
 [chara_mod name="akari" face="hutsuu_nikkori"]
-## あかり
+# あかり
 　そうなんだ。[p]
 
-## まこと
+# まこと
 　カフェいない？奢るからさ。[p]
 
 [chara_mod name="akari" face="hutsuu_hutsuu"]
-## あかり
+# あかり
 　いいよ。１人だと行きづらいんだよね？[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -161,11 +164,14 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_mod name="akari" face="hutsuu_nikkori"]
-## あかり
+# あかり
 　でも奢りはいいからね？私だってお小遣いもらってるし。[p]
 
-## まこと
+# まこと
 　たまには俺に見栄張らせてくれてもいいと思うんだけど・・・[p]
+
+
+[bg storage="station.jpg" time="1000"]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
@@ -175,7 +181,7 @@
   この近くにあるらしい私立小学校の児童たちだ。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## まこと
+# まこと
 　あかりって何事に対しても真面目だよね。真面目すぎるくらい。[p]
 
 
@@ -186,13 +192,13 @@
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
 [chara_mod name="akari" face="hutsuu_zannen"]
-## あかり
+# あかり
 　やっぱり私、変なのかな？[p]
 
-## まこと
+# まこと
 　そう言う意味じゃ・・・ごめん、変なこと言っちゃって。[p]
 
-## あかり
+# あかり
 　いつもみんなに、真にも迷惑かけてるんじゃないかなって・・・[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -201,11 +207,11 @@
 　ここにいるのは私一人ではないのだから。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## まこと
+# まこと
 　そんなことないよ。それに・・・俺、あかりのそう言うとこ好きだよ。[p]
 
 [chara_mod name="akari" face="hutsuu_nikkori"]
-## あかり
+# あかり
 　ありがとう。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -217,11 +223,11 @@
 　正直なところ、思い当たる節は沢山ある。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## まこと
+# まこと
 　今日行くところ、ホットケーキが美味しいんだって。[p]
 
 [chara_mod name="akari" face="hutsuu_hutsuu"]
-## あかり
+# あかり
 　そうなんだ[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -231,7 +237,7 @@
 
 [chara_mod name="akari" face="hutsuu_odoroki"]
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
+# あかり
 　あっ。[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -241,7 +247,7 @@
 　そのつんのめりながら前方へ１歩、２歩、３歩・・・黄色い点字ブロックを超えたのが見えた。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## まこと
+# まこと
 　あかりっ[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -251,7 +257,7 @@
 　ボタンが外れ、ブレザーの袖が抜けていくのを感じた。[p]
 
 [position layer=message0 page=fore margint="101" marginl="226" marginr="226" marginb="25"]
-## あかり
+# あかり
 　えっ[p]
 
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
@@ -265,7 +271,7 @@
 [chara_hide name="makoto"]
 
 [bg storage="black.png" time="1000"]
-[playse storage="p7.ogg"]
+[playse storage="c7.mp3"]
 [position layer=message0 page=fore margint="20" marginl="226" marginr="226" marginb="25"]
 #
 　王子様。[l][r]
@@ -277,5 +283,7 @@
 　かつて古の国を理想郷に作り変え、[r]国じゅうから生きる理由を失わせた古の魔女。[r]
   彼女が残した７日間の王の試練をさあ、はじめましょう。[p]
 [stopse]
+
+[wait time=1000]
 
 @jump storage="day1_noon.ks"
