@@ -33,7 +33,7 @@ h1{
 
 
 button{
-    width:200px;
+    width:30%;
     height:80px;
     margin:20px;
     padding:5px;
@@ -43,18 +43,4 @@ button{
 
 button:hover{
     cursor: pointer;
-}
-
-@media(min-aspect-ratio: 1/1){
-    #game{
-        width:100%;
-
-    }
-} 
-
-@media(max-aspect-ratio: 1/1){
-    #game{
-        height:100%;
-        width:calc( 100% * 9 / 16);
-    }
 }
