@@ -3,9 +3,9 @@
 
 @clearstack
 [bg layer="base" page="fore" time=200 storage=title_bg.png]
-@wait time =3000 
+@wait time =3000
 
-*start 
+*start
 [button name=startButton x=0 y=0 graphic="title/title_startButton.png" target="gamestart"]
 [iscript]
 $('.startButton').css("opacity","0").animate({opacity:1},1000);
@@ -18,6 +18,3 @@ $('.startButton').css("opacity","0").animate({opacity:1},1000);
 ;一番最初のシナリオファイルへジャンプする
 
 @jump storage="prologue.ks"
-
-
-
