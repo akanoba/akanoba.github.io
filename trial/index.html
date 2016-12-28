@@ -5,8 +5,11 @@
         <title>暁に手を伸ばして（Web体験版）</title>
 
         <link rel="stylesheet" href="style.css">
+
         <script src="function.js"></script>
 
+        <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
     </head>
 
@@ -14,8 +17,9 @@
         <div id="wrapper">
             <section id="menu">
                 <h1>暁に手を伸ばしてWeb体験版</h1>
-                <div id="test">a</div>
                 <button onclick="fullscreen();">フルスクリーン</button>
+                <button onclick="scroll();">画面下部までスクロール</button>
+                <a href="https://akanoba.xyz" target="_blank">ゲームを直接ブラウザで表示する(新しいウィンドウで開きます)</a>
             </section><!--menu-->
 
             <section id="game">

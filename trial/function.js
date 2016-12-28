@@ -6,3 +6,8 @@ function fullscreen(){
     if(document.msFullscreenEnabled)game.msRequestFullscreen();
     if(document.mozFullScreenEnabled)game.mozRequestFullScreen();
 }
+
+
+function scroll(){
+    window.scrollTo(0, 300);
+}
