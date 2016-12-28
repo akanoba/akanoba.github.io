@@ -1,61 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Loading TyranoScript</title>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>暁に手を伸ばして | 公式Webサイト</title>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="cssreset-min.css">
+        <link rel="stylesheet" href="style.css">
 
-<meta name="viewport" content=" user-scalable=no" />  
+        <script src="function.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
 
-<link href="./tyrano/tyrano.css" rel="stylesheet" type="text/css"/>
-<link href="./tyrano/libs/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+            </header>
+            <section id="top">
+                <div id="keyImg" >
+                    <div id="topContent">
+                    </div>
+                    <h1>暁に手を伸ばして</h1>
+                </div>
+            </sction><!--top-->
 
-<script type="text/javascript" src="./tyrano/libs/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="./tyrano/libs/jquery-ui.min.js"></script>
-<script type="text/javascript" src="./tyrano/libs/jquery.a3d.js"></script>
-<script type="text/javascript" src="./tyrano/libs/jsrender.min.js"></script>
+            <section id="story" >
+                <div id="storyDesign" class="sectionDesign">
+                <div id="storyWrapper" class="contentsWrapper">
+ 
+                 <h3>ストーリー</h3>                   
+                    <div id="storyContent" class="contents">
+                    <p>
+                        　王子様。古の国へ、そして古の魔女の娘・・・姫たちが住む古の城へようこそ。<br>
+　あなたはこれから７日間、古の魔女が残した王の試練に挑戦していただきます。<br>
+　試練をクリアする方法はただひとつ、この死にゆく世界で７日間生き延びること。<br>
+　無事生き延びることができたあなたには、王位とともに何でも一つ叶えることができる権利が与えられます。もちろん、元の世界で死ぬ直前から人生をやりなおすこともできますよ？<br>
+　かつて古の国を理想郷に作り変え、国じゅうから生きる理由を失わせた古の魔女。彼女が残した７日間の王の試練をさあ、はじめましょう。<br>
 
-<link href="./tyrano/libs/alertify/alertify.core.css" rel="stylesheet" type="text/css"/>
-<link href="./tyrano/libs/alertify/alertify.default.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="./tyrano/libs/alertify/alertify.min.js"></script>
+                    </p>
+                    <img src="img/shiro.jpg">
+                    </div>
+                </div>
+                </div>
+            </section><!--story-->
 
+            <section id="chara" class="pageSection">
+                <div id="charaDesign" class="sectionDesign">
+            <div class="sectionWrapper">
+            <h3>キャラクター</h3>
+                <div id="" class="contents">
+                    <ul>
+                        <li><img src="img/sefIntro/himezi.jpg"></li>
+                        <li><img src="img/sefIntro/meido.jpg"></li>
+                        <li><img src="img/sefIntro/rudovica.jpg"></li>
+                        <li><img src="img/sefIntro/rosa.jpg"></li>
+                        <li><img src="img/sefIntro/marry.jpg"></li>
+                        <li><img src="img/sefIntro/emiria.jpg"></li>
+                        <li><img src="img/sefIntro/ifa.jpg"></li>
+                        <li><img src="img/sefIntro/makoto.jpg"></li>
+                    </ul>
+                </div>
+            </div><!--.sectionWrapper-->
+            </div>
+            </section><!--story-->
 
-<script type="text/javascript" src="./tyrano/libs/html2canvas.js"></script>
+            <section id="special" class="pageSection">
+            <div id="specialDesign" class="sectionDesign">
+            <div class="sectionWrapper">
+            <h3>SPECIAL</h3>
+                <div id="" class="contents">
+                    <h4>ティザーイラスト</h4>
+                    <img src="img/tizer.jpg">
+                </div>
+            </div><!--.sectionWrapper-->
+            </div>
+            </section><!--story-->
 
-<script type="text/javascript" src="./tyrano/lang.js" ></script>
-<script type="text/javascript" src="./tyrano/libs.js" ></script>
-<script type="text/javascript" src="./tyrano/tyrano.js" ></script>
-<script type="text/javascript" src="./tyrano/tyrano.base.js" ></script>
+            <section id="spec" class="pageSection">
+            <div id="specDesign" class="sectionDesign">
+            <div class="sectionWrapper">
+            <h3>スタッフ・Information</h3>
+                <div id="" class="contents">
+                    <dl>
+                        <dt>イラスト:　</dt>
+                            <dd>春野すずらん(<a href="https://twitter.com/latte_suzuran" target="_blank">@latte_suzuran</a>)</dd>
+                        <dt>シナリオ:　</dt>
+                            <dd>ゆーが</dd>
+                        <dt>原案: </dt>
+                            <dd>TEAM AKANOBA</dd>
+                        <dt>ナレーション:　</dt>
+                            <dd>Now editing....</dd>
+                        <dt>スクリプト:　</dt>
+                        <dd>春野すずらん・ゆーが</dd>
+                        <dt>Web制作:　</dt>
+                        <dd>ゆーが</dd>
+                    </dl>
+                    <dl>
+                        <dt>対応プラットフォーム:　</dt>
+                        <dd>iPhone・Android(予定)</dd>
+                        <dt>公式Twitter:　</dt>
+                        <dd><a href="https://twitter.com/akanobaOfficial" target="_blank">@akanobaOfficial</a></dd>
 
-<link href="./tyrano/libs/textillate/assets/animate.css" rel="stylesheet">
-<script type="text/javascript" src="./tyrano/libs/textillate/assets/jquery.lettering.js"></script>
-<script type="text/javascript" src="./tyrano/libs/textillate/jquery.textillate.js"></script>
+                        <dt>
+                    </dl>
+                </div>
+            </div><!--.sectionWrapper-->
+            </div>
+            </section><!--story-->
 
-<script type="text/javascript" src="./tyrano/libs/lz-string.min.js"></script>
-
-<script type="text/javascript">
-function doScroll() { if (window.pageYOffset === 0) { window.scrollTo(0,1); } }  
-window.onload = function() { setTimeout(doScroll, 100); }  
-</script>  
-
-  <style>
-  .chara_name_area{
-    font-family:'Yu Gothic Demibold' !important;
-  }
-  </style>
-
-</head>
-
-<body onselectstart="return false" onContextmenu="return false" ontouchmove="event.preventDefault()" >
-
-<div id="tyrano_base" class="tyrano_base" style="overflow:hidden" unselectable="on" ondragstart="return false" >
-</div>
-
-
-<!--  First シナリオファイルに外部ファイルを利用したい場合は、こちらにシナリオファイルのURLを指定できます-->
-<!--
-<input type="hidden" id="first_scenario_file" value="http://test.com/tyrano/data/scenario/first.ks">
--->
-
-</body>
+            <footer>
+                暁に手を伸ばして<br>
+                Copyrght 2016 picturesque real. All right reserved.
+            </footer>
+        
+        </div><!--wrapper-->
+    </body>
 </html>
